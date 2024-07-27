@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const BACKEND_URL = "http://localhost:5000/api"
+const BACKEND_URL = "https://spend-wise-backend-rho.vercel.app/api"
 
 export const createuser = async (user) =>{
     const response =await axios.post(`${BACKEND_URL}/createuser`,user)
