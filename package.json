@@ -2,11 +2,6 @@
   "name": "frontend",
   "version": "0.1.0",
   "private": true,
-  "pre-commit": [
-    "ts.check",
-    "build",
-    "add-build"
-  ],
   "dependencies": {
     "@emotion/react": "^11.13.0",
     "@emotion/styled": "^11.13.0",
